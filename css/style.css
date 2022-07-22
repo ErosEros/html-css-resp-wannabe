@@ -138,3 +138,42 @@ img {
  }
   /* TABLET MEDIA */
 
+  /* SMARTPHONE MEDIA */
+  @media screen and (max-width:480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col {
+        width: 100%;    
+    }
+    .steps .col {
+        padding: 10px;
+        width: auto;
+      }
+      .why-us .col-left {
+        width: auto;
+        
+    }
+    .why-us .col-right {
+        width: auto;
+        
+        
+    }
+    
+    .steps {
+        background-color: pink;
+        margin: 0; 
+        color: #232946;
+        
+    
+    } 
+    .why-us {
+        background-color: black;
+        padding: 20px 0px;
+        margin: 0;
+    }   
+    
+    }
+      /* / SMARTPHONE MEDIA */
