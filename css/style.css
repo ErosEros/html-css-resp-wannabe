@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -130,54 +131,74 @@ img {
 
 
 
- /* TABLET MEDIA */
- @media screen and (max-width: 768px) {
-.container {
+/* TABLET MEDIA */
+@media screen and (max-width: 768px) {
+    .container {
         width: auto;
     }
- }
-  /* TABLET MEDIA */
 
-  /* SMARTPHONE MEDIA */
-  @media screen and (max-width:480px) {
+    .why-us .col-left {
+        width: auto;
+    }
+}
+
+/* TABLET MEDIA */
+
+/* SMARTPHONE MEDIA */
+@media screen and (max-width:480px) {
     .row {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .lessons .col {
-        width: 100%;    
+        width: 100%;
     }
+
     .steps .col {
         padding: 10px;
         width: auto;
-      }
-      .why-us .col-left {
-        width: auto;
-        
     }
+
+    .why-us .col-left {
+        width: auto;
+
+    }
+
     .why-us .col-right {
         width: auto;
         padding: 50px;
-        
-        
+
+
     }
-    
+
     .steps {
         background-color: pink;
-        margin: 0; 
+        margin: 0;
         color: #232946;
-        
-    
-    } 
+
+
+    }
+
     .why-us {
         background-color: black;
         padding: 20px 0px;
         margin: 0;
-    }  
-    .card   {
+    }
+
+    .card {
         padding-bottom: 50px;
     }
-    
+
+}
+
+/* / SMARTPHONE MEDIA */
+
+/* BONUS */
+@media screen and (min-width:768px) and (max-width:1160px) {
+    body {
+        overflow-x: hidden;
     }
-      /* / SMARTPHONE MEDIA */
+}
+/* BONUS */
